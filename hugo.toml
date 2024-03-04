@@ -1,0 +1,4 @@
+baseURL = 'https://nuney.com/'
+languageCode = 'en-gb'
+title = 'nuney.com website'
+theme = 'ananke'
