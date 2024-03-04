@@ -12,7 +12,7 @@ draft: true
 
 This uses the standard Lovelace Webpage (iFrame) card to display text from a file. A simple webpage uses JScript to create a table with text file lines displayed in each row of the table. The web page refreshed every 60 seconds to update the displayed content.
 
-This exanple creates and display a Home Assistant Notification log file with time-stamps, but any text file can be displayed with some minor modifications.
+This example creates and displays a Home Assistant Notification log file with time-stamps, but any text file can be displayed with some minor modifications.
 
 
 
