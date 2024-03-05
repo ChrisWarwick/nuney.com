@@ -20,7 +20,7 @@ This example creates and displays a Home Assistant Notification log file with ti
 
 This yaml should be included in the Home Assistant configuration.yaml file to create the log file that will be displayed. In this case we are using the log file to record automation events and the log file entries will include a timestamp (this is processed by the JScript below).
 
-```
+``` yaml
 # Create log files for energy automation events
 notify:
   - name: energy_log
@@ -34,7 +34,7 @@ notify:
 
 The following (action:) code can be added to a Home Assistant automation to add an event to logfile
 
-```
+``` yaml
 action:
   - service: notify.energy_log
     data:
@@ -46,7 +46,7 @@ action:
 
 Use a Home Assistant Lovelace Web page card (type: iframe) that will display the content of an html file (created below)
 
-```
+``` yaml
 type: iframe
 url: /local/energylog.html
 aspect_ratio: 100%
@@ -67,7 +67,8 @@ The file to read is specified as a URL parameter in the function call to the fun
 The number of lines that will be displayed in the Lovelace card is determined by the "NumberOf Entries" parameter. This purely configures the number of table rows that are displayed. It does not affect the number of file lines that are actually read (the script will read the entire text file on each call, so may be slow with very large files).
 
 The direction of output is determined by the "Direction" parameter.
-```
+
+``` html
 <html>
     <meta http-equiv="refresh" content="60" />
     <head>
