@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/energylog/</link>
       <pubDate>Mon, 04 Mar 2024 15:00:09 +0000</pubDate>
       <guid>http://localhost:1313/posts/energylog/</guid>
-      <description>Displaying a log file (text file) in a Home Assistant Lovelace card This uses the standard Lovelace Webpage (iFrame) card to display text from a file. A simple webpage uses JScript to create a table with text file lines displayed in each row of the table. The web page refreshed every 60 seconds to update the displayed content.&#xA;This exanple creates and display a Home Assistant Notification log file with time-stamps, but any text file can be displayed with some minor modifications.</description>
+      <description>Displaying a log file (text file) in a Home Assistant Lovelace card This uses the standard Lovelace Webpage (iFrame) card to display text from a file. A simple webpage uses JScript to create a table with text file lines displayed in each row of the table. The web page refreshed every 60 seconds to update the displayed content.&#xA;This example creates and displays a Home Assistant Notification log file with time-stamps, but any text file can be displayed with some minor modifications.</description>
     </item>
   </channel>
 </rss>
